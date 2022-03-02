@@ -157,7 +157,7 @@ a{
     margin:4%
 }
 .grid5{
-    background-image: url('/novels.jpg');
+    background-image: url('novels.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -166,7 +166,7 @@ a{
     margin:4%
 }
 .grid4{
-    background-image: url('/EduSharp.jpg');
+    background-image: url('EduSharp.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -176,7 +176,7 @@ a{
 }
 
 .grid3{
-    background-image: url('/signIn.jpg');
+    background-image: url('signIn.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -185,7 +185,7 @@ a{
     margin:4%
 }
 .grid2{
-    background-image: url('/project2.jpg');
+    background-image: url('project2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -195,7 +195,7 @@ a{
     margin:4%
 }
 .grid1{
-    background-image: url('/project1.jpg');
+    background-image: url('project1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
