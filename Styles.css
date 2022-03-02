@@ -39,10 +39,10 @@
 }
 
 .Container{
-    /* width:100%; */
+
     background-color:#efe9f6;
-    /* overflow: hidden; */
-    height: 250vh;
+  
+    height: 240vh;
     overflow: hidden;
 
 }
@@ -230,8 +230,8 @@ body{
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 70%;
-    height: 250px;
+    width: 75%;
+    height: 270px;
     /* padding:2%; */
     margin: 2%;
     background-image: url('project1.jpg');
@@ -264,7 +264,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 70%;
-    height: 260px;
+    height: 270px;
    
     /* padding:2%; */
     margin: 2%;
@@ -291,7 +291,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 70%;
-    height: 250px;
+    height: 270px;
     /* padding:2%; */
     margin: 2%;
     background-image: url('EduSharp.jpg');
@@ -317,7 +317,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 70%;
-    height: 250px;
+    height: 270px;
     /* padding:2%; */
     margin: 2%;
     background-image: url('signIn.jpg');
@@ -343,7 +343,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 70%;
-    height: 250px;
+    height: 270px;
     /* padding:2%; */
     margin: 2%;
     background-image: url('novels.jpg');
@@ -369,7 +369,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 70%;
-    height: 250px;
+    height: 270px;
     /* padding:2%; */
     margin: 2%;
     background-image: url('project1.jpg');
