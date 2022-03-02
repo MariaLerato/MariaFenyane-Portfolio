@@ -194,7 +194,7 @@ body{
     height: 250px;
     /* padding:2%; */
     margin: 2%;
-    background-image: url('/project1.jpg');
+    background-image: url('project1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -228,7 +228,7 @@ body{
    
     /* padding:2%; */
     margin: 2%;
-    background-image: url('/project2.jpg');
+    background-image: url('project2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -254,7 +254,7 @@ body{
     height: 250px;
     /* padding:2%; */
     margin: 2%;
-    background-image: url('/EduSharp.jpg');
+    background-image: url('EduSharp.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -280,7 +280,7 @@ body{
     height: 250px;
     /* padding:2%; */
     margin: 2%;
-    background-image: url('/signIn.jpg');
+    background-image: url('signIn.jpg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -306,7 +306,7 @@ body{
     height: 250px;
     /* padding:2%; */
     margin: 2%;
-    background-image: url('/novels.jpg');
+    background-image: url('novels.jpg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -332,7 +332,7 @@ body{
     height: 250px;
     /* padding:2%; */
     margin: 2%;
-    background-image: url('/project1.jpg');
+    background-image: url('project1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
