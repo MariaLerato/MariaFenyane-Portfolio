@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,117 +11,66 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
     <title>Document</title>
 </head>
-<style>
-  
-</style>
 <body>
-    <!-- Container -->
-    <div class="Container">
-        <div class="section group">
-	<div class="col span_1_of_2">
-	
-	</div>
-	<div class="col span_1_of_2">
-	
-	</div>
-</div>
-        <!-- links -->
-        <div class="Header">
-            <h3>My Portfolio</h3>
-            <div class="links">
-                <ul>
-                    <a href="home">Home   </a>
-                  <a href="#projects">  My Projects</a> 
-                </ul>
-            </div>
-        </div>
-        <!-- Heading -->
-        <div class="Header-Content">
-            <div class="details">
-                <h1>Introduction</h1>
-                <h2>My Name Is Maria Fenyane</h2>
-                <p>I am a software developer from Capricorn Tvet College where i learnt how to program using JavaScript
-                </p>
-                <p>I then did my training at mlab South Africa under the CodeTribe Academy where i learnt reactjs, react
-                    native, firebase and then mongodb. Right now i can refer to my self as a fullstack developer, since i can create projects by first designing the layout using figma and then using react to actually create the project and use mongodb as my database</p>
-                    <div class="button">
-                          <a href="CV_2022022108390377.pdf">View Resume</a>
-                    </div>
-            </div>
-            <div class="image">
-                <img src="snap1.jpg" alt="maria"  />
-            </div>
-        
-        </div>
-        <!-- Languages I know -->
-      
-            <!-- footer -->
-        
-   
-    <div class="ContainerProjects" id="projects">
-        <!-- links -->
-      
-     <h1 >My Projects</h1>
-     <div class="ProjectContainer">
-         <div class="card">
-             <div class="contentContainer">
-                <a href="https://github.com/MariaLerato/HotelFullApplication">
-                    <h3 style="padding-top: 2%;font-size: xx-large;"><b> Hotel Booking App </b></h3>
-                 <p>The Admin Part Of The Hotel Booking App called <br/>Montello</p>
-                </a>
-             </div>
-         </div>
-         <div class="card1">
-             <div class="contentContainer">
-                <a href="https://github.com/MariaLerato/form-app/tree/master/src/old">
-                    <h3 style="padding-top: 2%;font-size: xx-large;"><b> News Library </b></h3>
-                 <p>The webpage is about displaying topics from the technological world. It is a page showing a demo of how my online library will look like</p>
-                </a>
-             </div>
-         </div>
-         <div class="card2">
-             <div class="contentContainer">
-                <a href="https://github.com/MariaLerato/EduSharpFullSystem">
-                    <h3 style="padding-top: 2%;font-size: xx-large;"><b> EduSharp </b></h3>
-                 <p>The basic education community project is aimed at helping learners study more and gather more information</p>
-                </a>
-             </div>
-         </div>
-         <div class="card3">
-             <div class="contentContainer">
-                <a href="https://github.com/MariaLerato/new-native-publish/tree/master/components">
-                    <h3 style="padding-top: 2%;font-size: xx-large;"><b>Login </b></h3>
-                 <p>The project checks if you have entered all your details and then shows the option of changing the theme of your project</p>
-                </a>
-             </div>
-         </div>
-         <div class="card4">
-             <div class="contentContainer">
-                <a href="https://github.com/MariaLerato/new-native-publish">
-                    <h3 style="padding-top: 2%;font-size: xx-large;"><b> Novels App </b></h3>
-                 <p>The project was like a demo that shows the different types of genres the app provides and then shows available books/novels <br/>Montello</p>
-                </a>
-             </div>
-         </div>
-         <!-- <div class="card5">
-             <div class="contentContainer">
-                <a href="https://github.com/MariaLerato/HotelFullApplication"   >
-                    <h3 style="padding-top: 2%;font-size: xx-large;"><b> Hotel Booking App </b></h3>
-                 <p>The Admin Part Of The Hotel Booking App called <br/>Montello</p>
-                </a>
-             </div>
-         </div> -->
-     </div>
+    <div class ='homeContainer'>
+        <div class='homeTopCover'>
+            <h4 class="semiHeader"> My Portfolio</h4> 
+             <h1>Maria Fenyane</h1>
+            <p>I am a software developer from Capricorn Tvet College where i learnt how to program using JavaScript
+                   
+                    .I then did my training at mlab South Africa under the CodeTribe Academy where i learnt reactjs, react
+                        native, firebase and then mongodb.<br/> Right now i can refer to my self as a fullstack developer, since i can create projects by first designing the layout using figma and then using react to actually create the project and use mongodb as my database</p>
+                       
+                              <a  class='getStarted' href="/CV_2022022108390377.pdf">View Resume</a>
 
- </div>
+             <!-- <button type='button'>Get Started</button> -->
+        </div>
+        <div class='Topics' >
+           
+              <h2 class='TopicsButton'>My Github Projects</h2>      
+            <p>I have linked the github links of my projects below, so you can view them </p>
+            
+           
+         <!-- <button type='submit' '>My Projects</button> -->
+        <div class='gridContainer'>
+            <a href="https://github.com/MariaLerato/HotelFullApplication" class='grid1'>
+                 <h4>Montello hotel app</h4>
+                 <p>
+                    The Admin Part Of The Hotel Booking App controls the rooms and checks in the guest
+                 </p>
+                </a>
+            <a href="https://github.com/MariaLerato/form-app/tree/master/src/old" class='grid2'>
+                 <h4> News Library</h4>
+                 <p>
+                    The webpage is about displaying topics from the technological world. It is a page showing a demo of how my online library will look like
+                 </p>
+                </a>
+            <a href="https://github.com/MariaLerato/new-native-publish/tree/master/components"
+            class='grid3'>
+            <h4>Login </h4>
+            <p>
+                The project checks if you have entered all your details and then shows the option of changing the theme of your project
+            </p>
+        </a>
+        <a href="https://github.com/MariaLerato/EduSharpFullSystem" class='grid4'>
+              <h4> EduSharp</h4>
+              <p>
+                The basic education community project is aimed at helping learners study more and gather more information
+              </p>
+            </a>
+            <a href="https://github.com/MariaLerato/new-native-publish" class='grid5'>
+               <h4> Novels App</h4>
+               <p>
+                The project was like a demo that shows the different types of genres the app provides and then shows available books/novels
+               </p>
+            </a>
+          
+        </div>
+        </div>
 
- </div>
- <div class="footer">
-     
-</div>
+    </div>
 </body>
-
 </html>
